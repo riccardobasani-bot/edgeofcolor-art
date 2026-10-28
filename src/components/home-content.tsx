@@ -58,7 +58,7 @@ export function HomeContent({ featured, heroArtwork }: HomeContentProps) {
           </div>
           <blockquote className="self-center border-l-2 border-[var(--accent)] pl-5">
             <p className="font-[family-name:var(--font-display)] text-2xl leading-snug text-[var(--ink)] md:text-3xl">
-              “{t("quote")}”
+              {t("heroHeadline")}
             </p>
           </blockquote>
         </div>

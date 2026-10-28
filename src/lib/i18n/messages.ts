@@ -36,7 +36,7 @@ export const messages = {
     aboutBody:
       "Once a youth national 100-meter runner and a pianist who moves from classical scales to paint on canvas, Marcello collected degrees, passport stamps, and perspectives across Italy, Denmark, England, and the United States — then decided academic borders were too narrow. He has lived and worked in Italy, Denmark, the UK, the USA, Mexico, Nepal, Ecuador, Guyana, and Uruguay. A multicultural family — Italian meeting Indian-American — keeps the breakfast table an idea lab. His art is schema-free, irreverent, and oneiric: athletic urgency, musical structure, and nomadic mysticism.",
     quote:
-      "They say to find yourself you must stay in one place. I did the opposite: I traveled the world, and when I got tired of running, I started painting.",
+      "They say that to find yourself you must stay in the same place. I did the opposite: I traveled the world, and when I got tired of running, I started painting.",
     priceLabel: "Price",
     available: "Available",
     sold: "Sold",
@@ -69,7 +69,7 @@ export const messages = {
     aboutBody:
       "Antes corredor juvenil de 100 metros a nivel nacional y pianista que pasa de las escalas clásicas a la pintura, Marcello reunió títulos, sellos de pasaporte y perspectivas en Italia, Dinamarca, Inglaterra y Estados Unidos — y decidió que las fronteras académicas eran demasiado estrechas. Ha vivido y trabajado en Italia, Dinamarca, el Reino Unido, EE. UU., México, Nepal, Ecuador, Guyana y Uruguay. Una familia multicultural — lo italiano con lo indoamericano — convierte el desayuno en un laboratorio de ideas. Su arte es libre de esquemas, irreverente y onírico: urgencia atlética, estructura musical y misticismo nómada.",
     quote:
-      "Dicen que para encontrarte debes quedarte en un solo lugar. Yo hice lo contrario: recorrí el mundo, y cuando me cansé de correr, empecé a pintar.",
+      "Dicen que para encontrarte a ti mismo debes permanecer en el mismo lugar. Yo hice lo contrario: recorrí el mundo, y cuando me cansé de correr, empecé a pintar.",
     priceLabel: "Precio",
     available: "Disponible",
     sold: "Vendido",
