@@ -1,0 +1,272 @@
+﻿[
+    {
+        "id":  "work-01",
+        "source":  "0ab9bacc-fcd6-4636-838e-25ef97626d27.jpg",
+        "file":  "work-01.jpg",
+        "bytes":  242796
+    },
+    {
+        "id":  "work-02",
+        "source":  "18ec7529-11ca-4519-aa7a-87790fa05d3e.jpg",
+        "file":  "work-02.jpg",
+        "bytes":  262330
+    },
+    {
+        "id":  "work-03",
+        "source":  "1aac6095-c06f-42b2-a0b5-cb8f2b72a470.jpg",
+        "file":  "work-03.jpg",
+        "bytes":  297388
+    },
+    {
+        "id":  "work-04",
+        "source":  "1cf1faaa-4f4c-44d3-8e11-cf1890096574.jpg",
+        "file":  "work-04.jpg",
+        "bytes":  353902
+    },
+    {
+        "id":  "work-05",
+        "source":  "47aed643-d63e-4cc9-82de-3246ff0e246c.jpg",
+        "file":  "work-05.jpg",
+        "bytes":  355412
+    },
+    {
+        "id":  "work-06",
+        "source":  "513ff880-2138-4fed-8389-19d29581dbfd.jpg",
+        "file":  "work-06.jpg",
+        "bytes":  296461
+    },
+    {
+        "id":  "work-07",
+        "source":  "52b12ab1-2649-4b39-8e22-a71fa9c9db82.jpg",
+        "file":  "work-07.jpg",
+        "bytes":  365466
+    },
+    {
+        "id":  "work-08",
+        "source":  "54592609-2ef7-4d46-9419-e9d307644ff0.jpg",
+        "file":  "work-08.jpg",
+        "bytes":  359957
+    },
+    {
+        "id":  "work-09",
+        "source":  "5b236dac-de26-4bbf-8648-9b7ba0c51f92.jpg",
+        "file":  "work-09.jpg",
+        "bytes":  319116
+    },
+    {
+        "id":  "work-10",
+        "source":  "5d3cd22d-5858-4f00-9c36-3aad394db62b.jpg",
+        "file":  "work-10.jpg",
+        "bytes":  321193
+    },
+    {
+        "id":  "work-11",
+        "source":  "5e204a8c-0604-4269-accd-535b7c4e8c1b.jpg",
+        "file":  "work-11.jpg",
+        "bytes":  265044
+    },
+    {
+        "id":  "work-12",
+        "source":  "67c32a02-c9b8-4db9-922c-cc91b6ece41d.jpg",
+        "file":  "work-12.jpg",
+        "bytes":  345686
+    },
+    {
+        "id":  "work-13",
+        "source":  "69b591fc-0bf3-485a-85a5-a1b665618c5d.jpg",
+        "file":  "work-13.jpg",
+        "bytes":  307183
+    },
+    {
+        "id":  "work-14",
+        "source":  "7a7d23eb-75a3-446f-a506-58c87d7e04b1.jpg",
+        "file":  "work-14.jpg",
+        "bytes":  313487
+    },
+    {
+        "id":  "work-15",
+        "source":  "7c11b9bc-3823-41e3-bf97-3017161f47e1.jpg",
+        "file":  "work-15.jpg",
+        "bytes":  333468
+    },
+    {
+        "id":  "work-16",
+        "source":  "8c232478-19f1-4724-a8b9-312a2ce77d46.jpg",
+        "file":  "work-16.jpg",
+        "bytes":  286960
+    },
+    {
+        "id":  "work-17",
+        "source":  "919b51e1-db08-42fe-a923-146d034edc9d.jpg",
+        "file":  "work-17.jpg",
+        "bytes":  223379
+    },
+    {
+        "id":  "work-18",
+        "source":  "98f0e954-b84b-44af-9998-ddf8dfb1601e.jpg",
+        "file":  "work-18.jpg",
+        "bytes":  305151
+    },
+    {
+        "id":  "work-19",
+        "source":  "9bb008df-aa28-4036-8f3c-737d84c30d40.jpg",
+        "file":  "work-19.jpg",
+        "bytes":  322047
+    },
+    {
+        "id":  "work-20",
+        "source":  "9c4076b5-733b-4fe7-82e2-46d210437dd2.jpg",
+        "file":  "work-20.jpg",
+        "bytes":  252323
+    },
+    {
+        "id":  "work-21",
+        "source":  "9e92d82e-0d0e-48fb-9e53-ac21e6e6c44f.jpg",
+        "file":  "work-21.jpg",
+        "bytes":  319642
+    },
+    {
+        "id":  "work-22",
+        "source":  "a6de835f-ddaf-43f0-a768-b1a8a493d0a6.jpg",
+        "file":  "work-22.jpg",
+        "bytes":  231183
+    },
+    {
+        "id":  "work-23",
+        "source":  "a884d07a-53f4-4d50-9ea8-80693720b176.jpg",
+        "file":  "work-23.jpg",
+        "bytes":  259461
+    },
+    {
+        "id":  "work-24",
+        "source":  "a9b7841e-a4db-424b-9eb6-c27a76a9b443.jpg",
+        "file":  "work-24.jpg",
+        "bytes":  251547
+    },
+    {
+        "id":  "work-25",
+        "source":  "acb745b8-0cd3-4199-bd15-b707c4ea25a8.jpg",
+        "file":  "work-25.jpg",
+        "bytes":  335476
+    },
+    {
+        "id":  "work-26",
+        "source":  "af0571a0-0c3a-4ed8-8c0c-e0beec8c8096.jpg",
+        "file":  "work-26.jpg",
+        "bytes":  272784
+    },
+    {
+        "id":  "work-27",
+        "source":  "be673fe4-9c66-4d16-9a59-afaf3ed318fc.jpg",
+        "file":  "work-27.jpg",
+        "bytes":  363204
+    },
+    {
+        "id":  "work-28",
+        "source":  "ca51ec7f-95e1-44df-9a35-e4c28d0cd102.jpg",
+        "file":  "work-28.jpg",
+        "bytes":  294743
+    },
+    {
+        "id":  "work-29",
+        "source":  "cc0e091b-8f09-434f-8bf6-bcf03f64b0f2.jpg",
+        "file":  "work-29.jpg",
+        "bytes":  242979
+    },
+    {
+        "id":  "work-30",
+        "source":  "cd83f578-60d3-413e-abe1-1d2d2e375a4b.jpg",
+        "file":  "work-30.jpg",
+        "bytes":  326221
+    },
+    {
+        "id":  "work-31",
+        "source":  "e12f0a24-b934-4745-92c4-337109dce979.jpg",
+        "file":  "work-31.jpg",
+        "bytes":  290965
+    },
+    {
+        "id":  "work-32",
+        "source":  "f501b42a-4d00-4d73-a5ee-8d7d85f8b367.jpg",
+        "file":  "work-32.jpg",
+        "bytes":  231867
+    },
+    {
+        "id":  "work-33",
+        "source":  "fb276374-58cc-4503-8b2f-f636436e0fe5.jpg",
+        "file":  "work-33.jpg",
+        "bytes":  188798
+    },
+    {
+        "id":  "work-34",
+        "source":  "WhatsApp Image 2026-08-27 at 1.17.17 PM (1).jpeg",
+        "file":  "work-34.jpg",
+        "bytes":  313489
+    },
+    {
+        "id":  "work-35",
+        "source":  "WhatsApp Image 2026-08-27 at 1.17.17 PM (2).jpeg",
+        "file":  "work-35.jpg",
+        "bytes":  283693
+    },
+    {
+        "id":  "work-36",
+        "source":  "WhatsApp Image 2026-08-27 at 1.17.17 PM (3).jpeg",
+        "file":  "work-36.jpg",
+        "bytes":  382315
+    },
+    {
+        "id":  "work-37",
+        "source":  "WhatsApp Image 2026-08-27 at 1.17.17 PM (4).jpeg",
+        "file":  "work-37.jpg",
+        "bytes":  326231
+    },
+    {
+        "id":  "work-38",
+        "source":  "WhatsApp Image 2026-08-27 at 1.17.17 PM.jpeg",
+        "file":  "work-38.jpg",
+        "bytes":  200046
+    },
+    {
+        "id":  "work-39",
+        "source":  "WhatsApp Image 2026-09-04 at 5.32.13 PM.jpeg",
+        "file":  "work-39.jpg",
+        "bytes":  298234
+    },
+    {
+        "id":  "work-40",
+        "source":  "WhatsApp Image 2026-09-12 at 8.47.27 AM (1).jpeg",
+        "file":  "work-40.jpg",
+        "bytes":  347558
+    },
+    {
+        "id":  "work-41",
+        "source":  "WhatsApp Image 2026-09-12 at 8.47.27 AM (2).jpeg",
+        "file":  "work-41.jpg",
+        "bytes":  352070
+    },
+    {
+        "id":  "work-42",
+        "source":  "WhatsApp Image 2026-09-12 at 8.47.27 AM (3).jpeg",
+        "file":  "work-42.jpg",
+        "bytes":  170498
+    },
+    {
+        "id":  "work-43",
+        "source":  "WhatsApp Image 2026-09-12 at 8.47.27 AM (5).jpeg",
+        "file":  "work-43.jpg",
+        "bytes":  265766
+    },
+    {
+        "id":  "work-44",
+        "source":  "WhatsApp Image 2026-09-12 at 8.47.27 AM (7).jpeg",
+        "file":  "work-44.jpg",
+        "bytes":  294990
+    },
+    {
+        "id":  "work-45",
+        "source":  "WhatsApp Image 2026-09-12 at 8.47.27 AM (9).jpeg",
+        "file":  "work-45.jpg",
+        "bytes":  259849
+    }
+]

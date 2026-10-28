@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MarcyArt — Marcello Basani / EdgeOfColor
 
-## Getting Started
+Promotional website for Marcello Basani’s art: featured works on the home page, a full catalog, American English / Spanish / Italian with a flag language switcher, and an international shipping note.
 
-First, run the development server:
+## Run locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev -- -p 3847
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3847](http://localhost:3847).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Other scripts:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start -- -p 3847
+npm run lint
+```
 
-## Learn More
+## How to edit prices (and titles)
 
-To learn more about Next.js, take a look at the following resources:
+All catalog data lives in a **single file**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[`data/artworks.json`](./data/artworks.json)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Each artwork entry looks like:
 
-## Deploy on Vercel
+```json
+{
+  "id": "work-01",
+  "slug": "trumpet-city",
+  "image": "/artworks/work-01.jpg",
+  "featured": true,
+  "priceUsd": 2800,
+  "available": true,
+  "title": {
+    "en": "Trumpet City",
+    "es": "Ciudad de Trompeta",
+    "it": "Città della Tromba"
+  },
+  "caption": {
+    "en": "…",
+    "es": "…",
+    "it": "…"
+  }
+}
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Edit a price
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Open `data/artworks.json`.
+2. Find the artwork by `id`, `slug`, or English `title.en`.
+3. Change `priceUsd` (number, USD, no currency symbol).
+4. Optionally set `"available": false` when sold.
+5. Save the file and refresh the site (or restart `npm run dev` if needed).
+
+### Feature a work on the home page
+
+Set `"featured": true` on the pieces you want in the Featured section (home). The catalog page always lists every entry in this file.
+
+### Add a new artwork
+
+1. Add the image under `public/artworks/` (e.g. `work-46.jpg`).
+2. Append a new object to `data/artworks.json` with `image`, `priceUsd`, titles, and captions in `en` / `es` / `it`.
+
+## Languages
+
+UI strings live in `src/lib/i18n/messages.ts`. Artwork titles and captions are per-item in `data/artworks.json`. The header language switcher uses flag icons (🇺🇸 🇪🇸 🇮🇹); the choice is stored in `localStorage`.
+
+## Source materials
+
+- Brand copy from `MarcyArt.docx` (Marcello Basani — EdgeOfColor).
+- Artwork photos from `C:\Users\ricca\OneDrive\Desktop\MarcyArt\QUADRI` (copied into `public/artworks/`).
+
+Placeholder USD prices are for demo editing — replace them with Marcello’s real prices before publishing. Contact email is a placeholder (`studio@marcyart.example`).
+
+## Stack
+
+Next.js 15 (App Router) · TypeScript · Tailwind CSS v4 · lightweight UI primitives (`clsx`, `cva`, Lucide-ready)
