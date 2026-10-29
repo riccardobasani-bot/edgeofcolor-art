@@ -75,7 +75,8 @@ UI strings live in `src/lib/i18n/messages.ts`. Artwork titles and captions are p
 ## Source materials
 
 - Brand copy from `MarcyArt.docx` (Marcello Basani — EdgeOfColor).
-- Artwork photos from `C:\Users\ricca\OneDrive\Desktop\MarcyArt\QUADRI` (copied into `public/artworks/`).
+- Artwork photos from sibling folder `../Quadri` (copied into `public/artworks/`).
+- Source materials in the parent `MarcyArt` folder: `Quadri/`, `Archivo.docx`, `MarcyArt.docx`.
 
 Placeholder USD prices are for demo editing — replace them with Marcello’s real prices before publishing. Contact email is a placeholder (`studio@marcyart.example`).
 
