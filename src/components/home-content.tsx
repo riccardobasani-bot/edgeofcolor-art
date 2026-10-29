@@ -106,6 +106,7 @@ export function HomeContent({ featured, heroArtwork }: HomeContentProps) {
             <p className="font-[family-name:var(--font-display)] text-2xl">
               {t("brand")}
             </p>
+            <p className="mt-2 text-sm text-white/70">{t("brandSubtitle")}</p>
             <p className="mt-2 text-sm text-white/65">{t("footerNote")}</p>
           </div>
           <a

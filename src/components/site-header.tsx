@@ -14,8 +14,8 @@ export function SiteHeader() {
           <span className="font-[family-name:var(--font-display)] text-xl tracking-[0.08em] text-white md:text-2xl">
             {t("brand")}
           </span>
-          <span className="mt-1 text-[0.7rem] uppercase tracking-[0.22em] text-white/70">
-            {t("artist")} · {t("series")}
+          <span className="mt-1.5 max-w-[16rem] text-[0.68rem] leading-snug tracking-[0.04em] text-white/70 md:max-w-none">
+            {t("brandSubtitle")}
           </span>
         </Link>
         <nav className="flex items-center gap-4 md:gap-6">

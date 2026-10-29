@@ -29,9 +29,15 @@ export function Hero({ imageSrc, imageAlt }: HeroProps) {
             {t("artist")}
           </p>
           <h1 className="font-[family-name:var(--font-display)] text-4xl leading-none tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-            {t("series")}
+            {t("brand")}
           </h1>
-          <p className="hero-motto mt-6 max-w-3xl font-[family-name:var(--font-display)] text-2xl leading-snug text-white sm:text-3xl md:text-4xl md:leading-[1.15]">
+          <p className="mt-3 max-w-2xl text-sm tracking-[0.06em] text-white/75 md:text-base">
+            {t("brandSubtitle")}
+          </p>
+          <p className="hero-tagline mt-8 max-w-2xl font-[family-name:var(--font-display)] text-xl leading-snug text-[var(--accent)] sm:text-2xl md:text-3xl">
+            {t("tagline")}
+          </p>
+          <p className="hero-motto mt-5 max-w-3xl font-[family-name:var(--font-display)] text-2xl leading-snug text-white sm:text-3xl md:text-4xl md:leading-[1.15]">
             “{t("quote")}”
           </p>
           <p className="mt-5 max-w-xl text-base text-white/75 md:text-lg">

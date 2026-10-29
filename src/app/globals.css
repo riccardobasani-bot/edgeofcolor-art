@@ -100,8 +100,14 @@ a {
   }
 }
 
+.hero-tagline {
+  animation: motto-in 800ms ease both;
+  animation-delay: 80ms;
+}
+
 .hero-motto {
   animation: motto-in 900ms ease both;
+  animation-delay: 160ms;
   text-shadow: 0 2px 28px rgba(0, 0, 0, 0.45);
 }
 
@@ -138,6 +144,7 @@ a {
   }
 
   .hero-veil,
+  .hero-tagline,
   .hero-motto,
   #featured,
   #contact,

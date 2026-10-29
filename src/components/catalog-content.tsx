@@ -20,8 +20,8 @@ export function CatalogContent({ artworks }: { artworks: Artwork[] }) {
             >
               {t("brand")}
             </Link>
-            <p className="mt-1 text-xs uppercase tracking-[0.2em] text-[var(--muted)]">
-              {t("catalogTitle")}
+            <p className="mt-1.5 max-w-[18rem] text-[0.68rem] leading-snug tracking-[0.04em] text-[var(--muted)]">
+              {t("brandSubtitle")}
             </p>
           </div>
           <div className="flex items-center gap-4">

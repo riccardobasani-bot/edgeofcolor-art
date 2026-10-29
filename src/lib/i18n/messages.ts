@@ -14,6 +14,8 @@ export const localeMeta: Record<
 export const messages = {
   en: {
     brand: "EdgeOfColor Art",
+    brandSubtitle: "Fragments of Experience Shaped into Form",
+    tagline: "Every Canvas tells a Story",
     artist: "Marcello Basani",
     series: "EdgeOfColor",
     navHome: "Home",
@@ -52,6 +54,8 @@ export const messages = {
   },
   es: {
     brand: "EdgeOfColor Art",
+    brandSubtitle: "Fragmentos de experiencia que toman forma",
+    tagline: "Cada lienzo cuenta una historia",
     artist: "Marcello Basani",
     series: "EdgeOfColor",
     navHome: "Inicio",
@@ -90,6 +94,8 @@ export const messages = {
   },
   it: {
     brand: "EdgeOfColor Art",
+    brandSubtitle: "Frammenti di esperienza che prendono forma",
+    tagline: "Ogni tela racconta una storia",
     artist: "Marcello Basani",
     series: "EdgeOfColor",
     navHome: "Home",
