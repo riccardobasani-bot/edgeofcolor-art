@@ -34,6 +34,9 @@ export const messages = {
     shippingTitle: "Ships internationally",
     shippingBody:
       "Marcello ships worldwide. Ask about framing, lead times, and delivery to your country.",
+    commissionTitle: "Commissions",
+    commissionBody:
+      "Marcello also paints on commission. Share a size, subject, or mood, and he will work with you from the first sketch to the finished canvas.",
     aboutTitle: "Who is Marcello Basani?",
     aboutBody:
       "Once a youth national 100-meter runner and a pianist who moves from classical scales to paint on canvas, Marcello gathered degrees, passport stamps, and perspectives across Italy, Denmark, England, and the United States until academic borders felt too narrow. Living and working through Italy, Denmark, the UK, the USA, Mexico, Nepal, Ecuador, Guyana, and Uruguay became its own kind of education, each place leaving a mark. His family braids Italy with India and America, and keeps Nordic roads in its orbit; the breakfast table stays an idea lab. His art is schema-free, irreverent, and oneiric: athletic urgency, musical structure, and nomadic mysticism.",
@@ -69,6 +72,9 @@ export const messages = {
     shippingTitle: "Envíos internacionales",
     shippingBody:
       "Marcello envía a todo el mundo. Pregunta por enmarcado, plazos y entrega a tu país.",
+    commissionTitle: "Encargos",
+    commissionBody:
+      "Marcello también pinta por encargo. Comparte un tamaño, un tema o un ambiente, y trabajará contigo desde el primer boceto hasta el lienzo terminado.",
     aboutTitle: "¿Quién es Marcello Basani?",
     aboutBody:
       "Antes corredor juvenil de 100 metros a nivel nacional y pianista que pasa de las escalas clásicas a la pintura, Marcello reunió títulos, sellos de pasaporte y perspectivas en Italia, Dinamarca, Inglaterra y Estados Unidos hasta que las fronteras académicas le resultaron demasiado estrechas. Vivir y trabajar en Italia, Dinamarca, el Reino Unido, EE. UU., México, Nepal, Ecuador, Guyana y Uruguay se convirtió en otra forma de educación, y cada lugar dejó su huella. Su familia entrelaza Italia con la India y América, y mantiene los caminos nórdicos en su órbita; la mesa del desayuno sigue siendo un laboratorio de ideas. Su arte es libre de esquemas, irreverente y onírico: urgencia atlética, estructura musical y misticismo nómada.",
@@ -104,6 +110,9 @@ export const messages = {
     shippingTitle: "Spedizioni internazionali",
     shippingBody:
       "Marcello spedisce in tutto il mondo. Chiedi di cornici, tempi e consegna nel tuo paese.",
+    commissionTitle: "Commissioni",
+    commissionBody:
+      "Marcello dipinge anche su commissione. Condividi una misura, un soggetto o un'atmosfera, e lavorerà con te dal primo schizzo alla tela finita.",
     aboutTitle: "Chi è Marcello Basani?",
     aboutBody:
       "Prima corridore giovanile dei 100 metri per la Nazionale e pianista che passa dalle scale classiche alla tela, Marcello ha raccolto lauree, timbri sul passaporto e prospettive in Italia, Danimarca, Inghilterra e Stati Uniti finché i confini accademici gli sono sembrati troppo stretti. Vivere e lavorare in Italia, Danimarca, UK, USA, Messico, Nepal, Ecuador, Guyana e Uruguay è diventata un'altra forma di educazione, e ogni luogo ha lasciato un segno. La sua famiglia intreccia l'Italia con l'India e l'America, e tiene le strade nordiche nella propria orbita; la colazione resta un laboratorio di idee. La sua arte è senza schemi, irriverente e onirica: urgenza atletica, struttura musicale e misticismo nomade.",

@@ -43,7 +43,10 @@ export function CatalogContent({ artworks }: { artworks: Artwork[] }) {
           </h1>
           <p className="mt-3 text-lg text-[var(--muted)]">{t("catalogSub")}</p>
           <p className="mt-4 text-sm text-[var(--muted)]">
-            {t("shippingTitle")} — {t("shippingBody")}
+            {t("shippingTitle")}. {t("shippingBody")}
+          </p>
+          <p className="mt-2 text-sm text-[var(--muted)]">
+            {t("commissionTitle")}. {t("commissionBody")}
           </p>
         </div>
 

@@ -65,12 +65,24 @@ export function HomeContent({ featured, heroArtwork }: HomeContentProps) {
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-8 md:py-20">
-        <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--ink)]">
-          {t("shippingTitle")}
-        </h2>
-        <p className="mt-3 max-w-2xl text-lg text-[var(--muted)]">
-          {t("shippingBody")}
-        </p>
+        <div className="grid gap-12 md:grid-cols-2 md:gap-16">
+          <div>
+            <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--ink)]">
+              {t("shippingTitle")}
+            </h2>
+            <p className="mt-3 max-w-xl text-lg text-[var(--muted)]">
+              {t("shippingBody")}
+            </p>
+          </div>
+          <div>
+            <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--ink)]">
+              {t("commissionTitle")}
+            </h2>
+            <p className="mt-3 max-w-xl text-lg text-[var(--muted)]">
+              {t("commissionBody")}
+            </p>
+          </div>
+        </div>
       </section>
 
       <footer
