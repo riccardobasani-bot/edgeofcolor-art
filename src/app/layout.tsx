@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
-import { Bricolage_Grotesque, Figtree } from "next/font/google";
+import localFont from "next/font/local";
 import { LocaleProvider } from "@/lib/i18n/locale-context";
 import "./globals.css";
 
-const display = Bricolage_Grotesque({
+const display = localFont({
+  src: "./fonts/BricolageGrotesque-latin.woff2",
   variable: "--font-display",
-  subsets: ["latin"],
-  weight: ["500", "600", "700", "800"],
+  weight: "500 800",
+  display: "swap",
 });
 
-const body = Figtree({
+const body = localFont({
+  src: "./fonts/Figtree-latin.woff2",
   variable: "--font-body",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: "400 700",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
