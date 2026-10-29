@@ -49,7 +49,7 @@ export const messages = {
     sold: "Sold",
     backHome: "Back to home",
     contactEmail: "studio@marcyart.example",
-    footerNote: "© Marcello Basani — EdgeOfColor / MarcyArt",
+    footerNote: "© EdgeOfColor / MarcyArt",
     language: "Language",
   },
   es: {
