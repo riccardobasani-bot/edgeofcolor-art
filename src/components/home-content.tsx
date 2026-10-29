@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { ArtworkCard } from "@/components/artwork-card";
 import { Hero } from "@/components/hero";
@@ -47,20 +48,31 @@ export function HomeContent({ featured, heroArtwork }: HomeContentProps) {
       </section>
 
       <section className="border-y border-[var(--line)] bg-[var(--panel)]/70">
-        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-[1.1fr_0.9fr] md:px-8 md:py-20">
-          <div>
-            <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--ink)] md:text-4xl">
-              {t("aboutTitle")}
-            </h2>
-            <p className="mt-5 text-base leading-relaxed text-[var(--muted)] md:text-lg">
-              {t("aboutBody")}
-            </p>
+        <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-[minmax(11rem,15rem)_1fr] md:items-start md:gap-12 md:px-8 md:py-20">
+          <div className="relative mx-auto aspect-square w-44 overflow-hidden sm:w-52 md:mx-0 md:w-full">
+            <Image
+              src="/images/marcello-portrait.png"
+              alt="Marcello Basani"
+              fill
+              sizes="(max-width: 768px) 208px, 240px"
+              className="object-cover object-top"
+            />
           </div>
-          <blockquote className="self-center border-l-2 border-[var(--accent)] pl-5">
-            <p className="font-[family-name:var(--font-display)] text-2xl leading-snug text-[var(--ink)] md:text-3xl">
-              {t("heroHeadline")}
-            </p>
-          </blockquote>
+          <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-10">
+            <div>
+              <h2 className="font-[family-name:var(--font-display)] text-3xl text-[var(--ink)] md:text-4xl">
+                {t("aboutTitle")}
+              </h2>
+              <p className="mt-5 text-base leading-relaxed text-[var(--muted)] md:text-lg">
+                {t("aboutBody")}
+              </p>
+            </div>
+            <blockquote className="self-center border-l-2 border-[var(--accent)] pl-5">
+              <p className="font-[family-name:var(--font-display)] text-2xl leading-snug text-[var(--ink)] md:text-3xl">
+                {t("heroHeadline")}
+              </p>
+            </blockquote>
+          </div>
         </div>
       </section>
 
