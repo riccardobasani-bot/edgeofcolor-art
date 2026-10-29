@@ -13,7 +13,7 @@ export const localeMeta: Record<
 
 export const messages = {
   en: {
-    brand: "EdgeOfColor Art",
+    brand: "EdgeOfColor Art - Mar Cielo",
     brandSubtitle: "Fragments of Experience Shaped into Form",
     tagline: "Every Canvas tells a Story",
     artist: "EdgeOfColor Art",
