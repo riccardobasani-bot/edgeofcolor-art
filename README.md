@@ -33,8 +33,9 @@ Each artwork entry looks like:
   "slug": "trumpet-city",
   "image": "/artworks/work-01.jpg",
   "featured": true,
-  "priceUsd": 2800,
+  "priceUsd": null,
   "available": true,
+  "dimensions": { "widthCm": 40, "heightCm": 60 },
   "title": {
     "en": "Trumpet City",
     "es": "Ciudad de Trompeta",
@@ -48,11 +49,13 @@ Each artwork entry looks like:
 }
 ```
 
+Optional multi-panel works: `"dimensions": { "widthCm": 30, "heightCm": 40, "pieces": 3 }`.
+
 ### Edit a price
 
 1. Open `data/artworks.json`.
 2. Find the artwork by `id`, `slug`, or English `title.en`.
-3. Change `priceUsd` (number, USD, no currency symbol).
+3. Set `priceUsd` (number, USD, no currency symbol) or `null` to hide price.
 4. Optionally set `"available": false` when sold.
 5. Save the file and refresh the site (or restart `npm run dev` if needed).
 
@@ -63,7 +66,7 @@ Set `"featured": true` on the pieces you want in the Featured section (home). Th
 ### Add a new artwork
 
 1. Add the image under `public/artworks/` (e.g. `work-46.jpg`).
-2. Append a new object to `data/artworks.json` with `image`, `priceUsd`, titles, and captions in `en` / `es` / `it`.
+2. Append a new object to `data/artworks.json` with `image`, optional `priceUsd` / `dimensions`, titles, and captions in `en` / `es` / `it`.
 
 ## Languages
 

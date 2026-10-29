@@ -28,7 +28,9 @@ export const messages = {
     featuredTitle: "Featured works",
     featuredSub: "A first look at the EdgeOfColor collection.",
     catalogTitle: "Full catalog",
-    catalogSub: "Every available piece from the studio — prices are listed in USD.",
+    catalogSub: "Every available piece from the studio. Dimensions are listed where known.",
+    dimensionsLabel: "Dimensions",
+    piecesLabel: "pieces",
     shippingTitle: "Ships internationally",
     shippingBody:
       "Marcello ships worldwide. Ask about framing, lead times, and delivery to your country.",
@@ -61,7 +63,9 @@ export const messages = {
     featuredTitle: "Obras destacadas",
     featuredSub: "Una primera mirada a la colección EdgeOfColor.",
     catalogTitle: "Catálogo completo",
-    catalogSub: "Todas las piezas disponibles del estudio — precios en USD.",
+    catalogSub: "Todas las piezas disponibles del estudio. Dimensiones indicadas cuando se conocen.",
+    dimensionsLabel: "Dimensiones",
+    piecesLabel: "piezas",
     shippingTitle: "Envíos internacionales",
     shippingBody:
       "Marcello envía a todo el mundo. Pregunta por enmarcado, plazos y entrega a tu país.",
@@ -94,7 +98,9 @@ export const messages = {
     featuredTitle: "Opere in evidenza",
     featuredSub: "Uno sguardo alla collezione EdgeOfColor.",
     catalogTitle: "Catalogo completo",
-    catalogSub: "Tutte le opere disponibili dallo studio — prezzi in USD.",
+    catalogSub: "Tutte le opere disponibili dallo studio. Dimensioni indicate quando note.",
+    dimensionsLabel: "Dimensioni",
+    piecesLabel: "pezzi",
     shippingTitle: "Spedizioni internazionali",
     shippingBody:
       "Marcello spedisce in tutto il mondo. Chiedi di cornici, tempi e consegna nel tuo paese.",

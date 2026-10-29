@@ -4,7 +4,7 @@
     "slug": "trumpet-city",
     "image": "/artworks/work-01.jpg",
     "featured": true,
-    "priceUsd": 2800,
+    "priceUsd": null,
     "available": true,
     "title": {
       "en": "Trumpet City",
@@ -19,38 +19,46 @@
   },
   {
     "id": "work-02",
-    "slug": "crimson-cephalopod",
+    "slug": "octopus",
     "image": "/artworks/work-02.jpg",
     "featured": false,
-    "priceUsd": 1400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Crimson Cephalopod",
-      "es": "Cefalópodo Carmesí",
-      "it": "Cefalopode Cremisi"
+      "en": "Octopus",
+      "es": "Pulpo",
+      "it": "Polpo"
     },
     "caption": {
       "en": "A fiery orange octopus glides through neon kelp and a sea of colorful bubbles.",
       "es": "Un pulpo naranja ardiente se desliza entre algas neón y burbujas de color.",
       "it": "Un polpo arancione fuoco scivola tra alghe al neon e bolle colorate."
+    },
+    "dimensions": {
+      "widthCm": 60,
+      "heightCm": 40
     }
   },
   {
     "id": "work-03",
-    "slug": "the-jokers-hand",
+    "slug": "joker-card",
     "image": "/artworks/work-03.jpg",
     "featured": true,
-    "priceUsd": 3200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "The Joker's Hand",
-      "es": "La Mano del Joker",
-      "it": "La Mano del Joker"
+      "en": "Joker Card",
+      "es": "Carta Joker",
+      "it": "Carta Joker"
     },
     "caption": {
       "en": "A menacing jester points straight at you from a crimson playing-card frame.",
       "es": "Un bufón amenazante te señala desde un marco de carta carmesí.",
       "it": "Un giullare minaccioso ti indica da una cornice di carta cremisi."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 60
     }
   },
   {
@@ -58,7 +66,7 @@
     "slug": "neon-gaze",
     "image": "/artworks/work-04.jpg",
     "featured": false,
-    "priceUsd": 1800,
+    "priceUsd": null,
     "available": true,
     "title": {
       "en": "Neon Gaze",
@@ -73,15 +81,15 @@
   },
   {
     "id": "work-05",
-    "slug": "alpenglow-spires",
+    "slug": "hill",
     "image": "/artworks/work-05.jpg",
     "featured": true,
-    "priceUsd": 3600,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Alpenglow Spires",
-      "es": "Agujas de Alpenglow",
-      "it": "Guglie di Alpenglow"
+      "en": "Hill",
+      "es": "Cerro",
+      "it": "Colle"
     },
     "caption": {
       "en": "Jagged granite peaks blaze orange over a turquoise glacial lake at dusk.",
@@ -94,7 +102,7 @@
     "slug": "midnight-sax",
     "image": "/artworks/work-06.jpg",
     "featured": true,
-    "priceUsd": 2800,
+    "priceUsd": null,
     "available": true,
     "title": {
       "en": "Midnight Sax",
@@ -109,51 +117,59 @@
   },
   {
     "id": "work-07",
-    "slug": "celestial-harvest",
+    "slug": "van-gogh",
     "image": "/artworks/work-07.jpg",
     "featured": false,
-    "priceUsd": 2400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Celestial Harvest",
-      "es": "Cosecha Celestial",
-      "it": "Raccolto Celeste"
+      "en": "Van Gogh",
+      "es": "Van Gogh",
+      "it": "Van Gogh"
     },
     "caption": {
       "en": "A golden wheat field and winding stream rest beneath a swirling starry sky.",
       "es": "Un trigal dorado y un arroyo reposan bajo un cielo estrellado en remolino.",
       "it": "Un campo di grano dorato e un ruscello sotto un cielo stellato vorticoso."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 40
     }
   },
   {
     "id": "work-08",
-    "slug": "sonic-fire",
+    "slug": "rock",
     "image": "/artworks/work-08.jpg",
     "featured": false,
-    "priceUsd": 2600,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Sonic Fire",
-      "es": "Fuego Sónico",
-      "it": "Fuoco Sonico"
+      "en": "Rock",
+      "es": "Rock",
+      "it": "Rock"
     },
     "caption": {
       "en": "A rock-on hand erupts in fiery color beneath blazing Foo Fighters lettering.",
       "es": "Una mano de rock estalla en color bajo letras ardientes de Foo Fighters.",
       "it": "Una mano rock esplode di colore sotto lettere ardenti dei Foo Fighters."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 50
     }
   },
   {
     "id": "work-09",
-    "slug": "percussion-blast",
+    "slug": "drums",
     "image": "/artworks/work-09.jpg",
     "featured": false,
-    "priceUsd": 2800,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Percussion Blast",
-      "es": "Estallido de Percusión",
-      "it": "Esplosione di Percussioni"
+      "en": "Drums",
+      "es": "Batería",
+      "it": "Batteria"
     },
     "caption": {
       "en": "A full drum kit detonates against a backdrop of orange fire and stage light.",
@@ -163,51 +179,59 @@
   },
   {
     "id": "work-10",
-    "slug": "wild-card",
+    "slug": "joker-card-4",
     "image": "/artworks/work-10.jpg",
     "featured": false,
-    "priceUsd": 3000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Wild Card",
-      "es": "Comodín",
-      "it": "Jolly"
+      "en": "Joker Card",
+      "es": "Carta Joker",
+      "it": "Carta Joker"
     },
     "caption": {
       "en": "A knowing jester holds a tiny Joker card inside a blazing orange frame.",
       "es": "Un bufón cómplice sostiene una carta Joker dentro de un marco naranja.",
       "it": "Un giullare compiaciuto tiene una carta Joker in una cornice arancio."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 60
     }
   },
   {
     "id": "work-11",
-    "slug": "chapel-in-the-glow",
+    "slug": "alpe-susi",
     "image": "/artworks/work-11.jpg",
     "featured": false,
-    "priceUsd": 3200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Chapel in the Glow",
-      "es": "Capilla en el Resplandor",
-      "it": "Cappella nel Bagliore"
+      "en": "Alpe Susi",
+      "es": "Alpe Susi",
+      "it": "Alpe Susi"
     },
     "caption": {
       "en": "A white mountain chapel sits before jagged peaks lit in blue and orange.",
       "es": "Una capilla blanca se alza ante picos dentados en azul y naranja.",
       "it": "Una cappella bianca sorge davanti a picchi frastagliati blu e arancio."
+    },
+    "dimensions": {
+      "widthCm": 60,
+      "heightCm": 40
     }
   },
   {
     "id": "work-12",
-    "slug": "milky-way-ridge",
+    "slug": "night-with-stars",
     "image": "/artworks/work-12.jpg",
     "featured": false,
-    "priceUsd": 3500,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Milky Way Ridge",
-      "es": "Cresta de la Vía Láctea",
-      "it": "Cresta della Via Lattea"
+      "en": "Night with Stars",
+      "es": "Noche con estrellas",
+      "it": "Notte con stelle"
     },
     "caption": {
       "en": "Snowy peaks stand under a star-packed sky streaked with shooting stars.",
@@ -217,33 +241,37 @@
   },
   {
     "id": "work-13",
-    "slug": "crimson-arabesque",
+    "slug": "ballerina-2",
     "image": "/artworks/work-13.jpg",
     "featured": false,
-    "priceUsd": 1200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Crimson Arabesque",
-      "es": "Arabesco Carmesí",
-      "it": "Arabesco Cremisi"
+      "en": "Ballerina",
+      "es": "Bailarina",
+      "it": "Ballerina"
     },
     "caption": {
       "en": "A ballerina leaps through a radiant burst of reds, blues, and golden light.",
       "es": "Una bailarina salta entre un estallido de rojos, azules y luz dorada.",
       "it": "Una ballerina salta in un'esplosione di rossi, blu e luce dorata."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 40
     }
   },
   {
     "id": "work-14",
-    "slug": "dolomite-fire",
+    "slug": "three-peaks-2",
     "image": "/artworks/work-14.jpg",
     "featured": false,
-    "priceUsd": 1400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Dolomite Fire",
-      "es": "Fuego de Dolomitas",
-      "it": "Fuoco delle Dolomiti"
+      "en": "Three Peaks",
+      "es": "3 cimas",
+      "it": "Tre cime"
     },
     "caption": {
       "en": "Three glowing peaks catch sunset fire beneath a stormy navy sky.",
@@ -253,87 +281,103 @@
   },
   {
     "id": "work-15",
-    "slug": "infernal-summit",
+    "slug": "horns-of-paine",
     "image": "/artworks/work-15.jpg",
     "featured": false,
-    "priceUsd": 1600,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Infernal Summit",
-      "es": "Cumbre Infernal",
-      "it": "Vetta Infernale"
+      "en": "Horns of Paine",
+      "es": "Cuernos del Paine",
+      "it": "Corna del Paine"
     },
     "caption": {
       "en": "Twin towers blaze as a crimson sunset floods sky and mirrored lake alike.",
       "es": "Torres gemelas arden mientras un crepúsculo carmesí inunda cielo y lago.",
       "it": "Torri gemelle ardono mentre un tramonto cremisi inonda cielo e lago."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 60
     }
   },
   {
     "id": "work-16",
-    "slug": "burning-matterhorn",
+    "slug": "first-mountain",
     "image": "/artworks/work-16.jpg",
     "featured": false,
-    "priceUsd": 1800,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Burning Matterhorn",
-      "es": "Cervino Ardiente",
-      "it": "Cervino Ardente"
+      "en": "First Mountain",
+      "es": "Primera montaña",
+      "it": "Prima montagna"
     },
     "caption": {
       "en": "A sharp alpine peak divides fiery alpenglow from deep cobalt shadow.",
       "es": "Un pico alpino afilado divide el alpenglow del fuego y la sombra cobalto.",
       "it": "Una vetta alpina tagliente divide l'alpenglow dal fuoco e l'ombra cobalto."
+    },
+    "dimensions": {
+      "widthCm": 45,
+      "heightCm": 35
     }
   },
   {
     "id": "work-17",
-    "slug": "mirrored-summit",
+    "slug": "paramount",
     "image": "/artworks/work-17.jpg",
     "featured": false,
-    "priceUsd": 2000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Mirrored Summit",
-      "es": "Cumbre Espejada",
-      "it": "Vetta Specchiata"
+      "en": "Paramount",
+      "es": "Paramount",
+      "it": "Paramount"
     },
     "caption": {
       "en": "A triangular peak and its perfect reflection burn orange in still water.",
       "es": "Un pico triangular y su reflejo perfecto arden naranja en aguas quietas.",
       "it": "Un picco triangolare e il suo riflesso ardono arancio in acque ferme."
+    },
+    "dimensions": {
+      "widthCm": 80,
+      "heightCm": 60
     }
   },
   {
     "id": "work-18",
-    "slug": "sky-reef",
+    "slug": "whales",
     "image": "/artworks/work-18.jpg",
     "featured": false,
-    "priceUsd": 2200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Sky Reef",
-      "es": "Arrecife Celeste",
-      "it": "Scogliera Celeste"
+      "en": "Whales",
+      "es": "Ballenas",
+      "it": "Balene"
     },
     "caption": {
       "en": "Humpback whales soar above a coral-cloaked island under a crimson sky.",
       "es": "Ballenas jorobadas vuelan sobre una isla de coral bajo un cielo carmesí.",
       "it": "Megattere volano sopra un'isola di corallo sotto un cielo cremisi."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 40
     }
   },
   {
     "id": "work-19",
-    "slug": "living-melody",
+    "slug": "violin-2",
     "image": "/artworks/work-19.jpg",
     "featured": false,
-    "priceUsd": 2400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Living Melody",
-      "es": "Melodía Viva",
-      "it": "Melodia Vivente"
+      "en": "Violin",
+      "es": "Violín",
+      "it": "Violino"
     },
     "caption": {
       "en": "A violin grows from a forest trunk, its body alive with butterflies and bloom.",
@@ -346,7 +390,7 @@
     "slug": "divided-sky",
     "image": "/artworks/work-20.jpg",
     "featured": false,
-    "priceUsd": 2600,
+    "priceUsd": null,
     "available": true,
     "title": {
       "en": "Divided Sky",
@@ -361,69 +405,81 @@
   },
   {
     "id": "work-21",
-    "slug": "manic-grin",
+    "slug": "joker-card-2",
     "image": "/artworks/work-21.jpg",
     "featured": false,
-    "priceUsd": 2800,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Manic Grin",
-      "es": "Sonrisa Maníaca",
-      "it": "Sorriso Maniacale"
+      "en": "Joker Card",
+      "es": "Carta Joker",
+      "it": "Carta Joker"
     },
     "caption": {
       "en": "A wide-eyed joker grins wildly from a riot of red, blue, and gold.",
       "es": "Un joker de ojos abiertos sonríe salvaje entre rojo, azul y oro.",
       "it": "Un joker dagli occhi spalancati sorride selvaggio tra rosso, blu e oro."
+    },
+    "dimensions": {
+      "widthCm": 30,
+      "heightCm": 45
     }
   },
   {
     "id": "work-22",
-    "slug": "jesters-gambit",
+    "slug": "joker-card-3",
     "image": "/artworks/work-22.jpg",
     "featured": false,
-    "priceUsd": 3000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Jester's Gambit",
-      "es": "Gambito del Bufón",
-      "it": "Gambetto del Giullare"
+      "en": "Joker Card",
+      "es": "Carta Joker",
+      "it": "Carta Joker"
     },
     "caption": {
       "en": "A green-and-crimson jester offers a miniature Joker with a sly smile.",
       "es": "Un bufón verde y carmesí ofrece un Joker miniatura con sonrisa pícara.",
       "it": "Un giullare verde e cremisi offre un Joker in miniatura con sorriso furbo."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 60
     }
   },
   {
     "id": "work-23",
-    "slug": "luminous-azure",
+    "slug": "butterfly",
     "image": "/artworks/work-23.jpg",
     "featured": false,
-    "priceUsd": 3200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Luminous Azure",
-      "es": "Azul Luminoso",
-      "it": "Azzurro Luminoso"
+      "en": "Butterfly",
+      "es": "Mariposa",
+      "it": "Farfalla"
     },
     "caption": {
       "en": "A glowing blue butterfly rests on a dark stem amid soft celestial orbs.",
       "es": "Una mariposa azul luminosa reposa en un tallo entre orbes celestes.",
       "it": "Una farfalla azzurra luminosa posa su uno stelo tra orbi celesti."
+    },
+    "dimensions": {
+      "widthCm": 35,
+      "heightCm": 45
     }
   },
   {
     "id": "work-24",
-    "slug": "alpine-inferno",
+    "slug": "three-peaks",
     "image": "/artworks/work-24.jpg",
     "featured": false,
-    "priceUsd": 3500,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Alpine Inferno",
-      "es": "Infierno Alpino",
-      "it": "Inferno Alpino"
+      "en": "Three Peaks",
+      "es": "3 cimas",
+      "it": "Tre cime"
     },
     "caption": {
       "en": "Three jagged towers ignite beneath a swirling red-and-gold mountain sky.",
@@ -433,51 +489,59 @@
   },
   {
     "id": "work-25",
-    "slug": "the-jokers-call",
+    "slug": "joker-card-5",
     "image": "/artworks/work-25.jpg",
     "featured": false,
-    "priceUsd": 1200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "The Joker's Call",
-      "es": "El Llamado del Joker",
-      "it": "Il Richiamo del Joker"
+      "en": "Joker Card",
+      "es": "Carta Joker",
+      "it": "Carta Joker"
     },
     "caption": {
       "en": "A purple-and-gold jester points and declares I WANT YOU from a wild card.",
       "es": "Un bufón púrpura y oro señala y declara I WANT YOU desde un comodín.",
       "it": "Un giullare viola e oro indica e dichiara I WANT YOU da un jolly."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 60
     }
   },
   {
     "id": "work-26",
-    "slug": "spectrum-of-man",
+    "slug": "man",
     "image": "/artworks/work-26.jpg",
     "featured": false,
-    "priceUsd": 1400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Spectrum of Man",
-      "es": "Espectro de un Hombre",
-      "it": "Spettro di un Uomo"
+      "en": "Man",
+      "es": "Hombre",
+      "it": "Uomo"
     },
     "caption": {
       "en": "Neon pinks and electric blues carve intensity into a dark-backed portrait.",
       "es": "Rosas neón y azules eléctricos tallan intensidad en un retrato oscuro.",
       "it": "Rosa al neon e blu elettrici scolpiscono intensità in un ritratto scuro."
+    },
+    "dimensions": {
+      "widthCm": 30,
+      "heightCm": 40
     }
   },
   {
     "id": "work-27",
-    "slug": "the-watching-treehouse",
+    "slug": "eye-in-the-treehouse",
     "image": "/artworks/work-27.jpg",
     "featured": true,
-    "priceUsd": 3000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "The Watching Treehouse",
-      "es": "La Casa en el Árbol que Mira",
-      "it": "La Casa sull'Albero che Guarda"
+      "en": "Eye in the Treehouse",
+      "es": "Ojo en la casa del árbol",
+      "it": "Occhio nella casa sull'albero"
     },
     "caption": {
       "en": "An autumn treehouse stares back through a giant blue eye among glowing lanterns.",
@@ -490,7 +554,7 @@
     "slug": "radiant-horizon",
     "image": "/artworks/work-28.jpg",
     "featured": false,
-    "priceUsd": 1800,
+    "priceUsd": null,
     "available": true,
     "title": {
       "en": "Radiant Horizon",
@@ -505,20 +569,24 @@
   },
   {
     "id": "work-29",
-    "slug": "eternal-smile",
+    "slug": "catrina",
     "image": "/artworks/work-29.jpg",
     "featured": false,
-    "priceUsd": 2000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Eternal Smile",
-      "es": "Sonrisa Eterna",
-      "it": "Sorriso Eterno"
+      "en": "Catrina",
+      "es": "Catrina",
+      "it": "Catrina"
     },
     "caption": {
       "en": "A Catrina in sugar-skull bloom smiles bright beneath a crown of sunflowers.",
       "es": "Una Catrina en flor de calavera sonríe bajo una corona de girasoles.",
       "it": "Una Catrina in fiore di teschio sorride sotto una corona di girasoli."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 60
     }
   },
   {
@@ -526,7 +594,7 @@
     "slug": "cave-to-the-peaks",
     "image": "/artworks/work-30.jpg",
     "featured": false,
-    "priceUsd": 2200,
+    "priceUsd": null,
     "available": true,
     "title": {
       "en": "Cave to the Peaks",
@@ -541,15 +609,15 @@
   },
   {
     "id": "work-31",
-    "slug": "spectrum-charge",
+    "slug": "another-bull",
     "image": "/artworks/work-31.jpg",
     "featured": false,
-    "priceUsd": 2400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Spectrum Charge",
-      "es": "Carga Espectral",
-      "it": "Carica Spettrale"
+      "en": "Another Bull",
+      "es": "Otro toro",
+      "it": "Altro toro"
     },
     "caption": {
       "en": "A prismatic bull charges forward against a rough black-and-white grid.",
@@ -559,20 +627,24 @@
   },
   {
     "id": "work-32",
-    "slug": "cosmic-gaze",
+    "slug": "big-eye",
     "image": "/artworks/work-32.jpg",
     "featured": true,
-    "priceUsd": 3000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Cosmic Gaze",
-      "es": "Mirada Cósmica",
-      "it": "Sguardo Cosmico"
+      "en": "Big Eye",
+      "es": "Ojo grande",
+      "it": "Occhio grande"
     },
     "caption": {
       "en": "A rainbow iris watches from a mossy mound amid planets and starfields.",
       "es": "Un iris arcoíris observa desde un montículo musgoso entre planetas.",
       "it": "Un'iride arcobaleno osserva da un mucchio muscoso tra pianeti e stelle."
+    },
+    "dimensions": {
+      "widthCm": 60,
+      "heightCm": 80
     }
   },
   {
@@ -580,7 +652,7 @@
     "slug": "valley-of-mist",
     "image": "/artworks/work-33.jpg",
     "featured": false,
-    "priceUsd": 2800,
+    "priceUsd": null,
     "available": true,
     "title": {
       "en": "Valley of Mist",
@@ -595,218 +667,269 @@
   },
   {
     "id": "work-34",
-    "slug": "weathered-wisdom",
+    "slug": "grandfather",
     "image": "/artworks/work-34.jpg",
     "featured": false,
-    "priceUsd": 3000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Weathered Wisdom",
-      "es": "Sabiduría Curtida",
-      "it": "Saggezza Segnata"
+      "en": "Grandfather",
+      "es": "Abuelito",
+      "it": "Nonno"
     },
     "caption": {
       "en": "An elder's green eyes meet yours through a mosaic of warm earth tones.",
       "es": "Los ojos verdes de un anciano te miran entre tonos terrosos en mosaico.",
       "it": "Gli occhi verdi di un anziano ti fissano tra toni terrosi a mosaico."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 70
     }
   },
   {
     "id": "work-35",
-    "slug": "crimson-whirl",
+    "slug": "ballerina",
     "image": "/artworks/work-35.jpg",
     "featured": false,
-    "priceUsd": 3200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Crimson Whirl",
-      "es": "Remolino Carmesí",
-      "it": "Vortice Cremisi"
+      "en": "Ballerina",
+      "es": "Bailarina",
+      "it": "Ballerina"
     },
     "caption": {
       "en": "A dancer spins in a scarlet dress, ripples spreading through the rain.",
       "es": "Una bailarina gira en vestido escarlata; ondas se abren en la lluvia.",
       "it": "Una danzatrice gira in abito scarlatto; onde si aprono nella pioggia."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 70
     }
   },
   {
     "id": "work-36",
-    "slug": "spoken-fire",
+    "slug": "lips",
     "image": "/artworks/work-36.jpg",
     "featured": false,
-    "priceUsd": 3500,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Spoken Fire",
-      "es": "Fuego Hablado",
-      "it": "Fuoco Parlato"
+      "en": "Lips",
+      "es": "Labios",
+      "it": "Labbra"
     },
     "caption": {
       "en": "Glossy red lips and bright teeth split a diptych of warm and cool splash.",
       "es": "Labios rojos brillantes parten un díptico de salpicaduras cálidas y frías.",
       "it": "Labbra rosse lucide dividono un dittico di schizzi caldi e freddi."
+    },
+    "dimensions": {
+      "widthCm": 30,
+      "heightCm": 60,
+      "pieces": 2
     }
   },
   {
     "id": "work-37",
-    "slug": "violet-matriarch",
+    "slug": "grandmother",
     "image": "/artworks/work-37.jpg",
     "featured": false,
-    "priceUsd": 1200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Violet Matriarch",
-      "es": "Matriarca Violeta",
-      "it": "Matriarca Viola"
+      "en": "Grandmother",
+      "es": "Abuelita",
+      "it": "Nonna"
     },
     "caption": {
       "en": "White-and-violet hair frames a wise green-eyed gaze on a forest-green field.",
       "es": "Cabello blanco y violeta enmarca una mirada sabia sobre verde bosque.",
       "it": "Capelli bianchi e viola incorniciano uno sguardo saggio su verde bosco."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 70
     }
   },
   {
     "id": "work-38",
-    "slug": "chromatic-queen",
+    "slug": "lady",
     "image": "/artworks/work-38.jpg",
     "featured": false,
-    "priceUsd": 1400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Chromatic Queen",
-      "es": "Reina Cromática",
-      "it": "Regina Cromatica"
+      "en": "Lady",
+      "es": "Señora",
+      "it": "Signora"
     },
     "caption": {
       "en": "A bold afro crowns a face painted in fearless blocks of primary color.",
       "es": "Un afro audaz corona un rostro en bloques audaces de color primario.",
       "it": "Un afro audace corona un volto a blocchi coraggiosi di colori primari."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 70
     }
   },
   {
     "id": "work-39",
-    "slug": "twin-jesters",
+    "slug": "two-joker-cards",
     "image": "/artworks/work-39.jpg",
     "featured": false,
-    "priceUsd": 1600,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Twin Jesters",
-      "es": "Bufones Gemelos",
-      "it": "Giullari Gemelli"
+      "en": "Two Joker Cards",
+      "es": "2 cartas Joker",
+      "it": "Due carte Joker"
     },
     "caption": {
       "en": "A diptych of two moods—pout and smirk—on matching Joker playing cards.",
       "es": "Un díptico de dos humores—mohín y sonrisa—en cartas Joker gemelas.",
       "it": "Un dittico di due umori—broncio e sorriso—su carte Joker gemelle."
+    },
+    "dimensions": {
+      "widthCm": 30,
+      "heightCm": 45,
+      "pieces": 2
     }
   },
   {
     "id": "work-40",
-    "slug": "patagonian-firelight",
+    "slug": "towers-of-paine",
     "image": "/artworks/work-40.jpg",
     "featured": false,
-    "priceUsd": 1800,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Patagonian Firelight",
-      "es": "Luz de Fuego Patagónica",
-      "it": "Luce di Fuoco Patagonica"
+      "en": "Towers of Paine",
+      "es": "Torres del Paine",
+      "it": "Torri del Paine"
     },
     "caption": {
       "en": "Granite towers of Patagonia catch a molten sunset in sky and lake.",
       "es": "Torres de granito patagónicas captan un atardecer derretido en cielo y lago.",
       "it": "Torri di granito patagoniche catturano un tramonto fuso in cielo e lago."
+    },
+    "dimensions": {
+      "widthCm": 60,
+      "heightCm": 40
     }
   },
   {
     "id": "work-41",
-    "slug": "twisted-sentinel",
+    "slug": "colorful-tree",
     "image": "/artworks/work-41.jpg",
     "featured": false,
-    "priceUsd": 2000,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Twisted Sentinel",
-      "es": "Centinela Retorcido",
-      "it": "Sentinella Contorta"
+      "en": "Colorful Tree",
+      "es": "Árbol colorido",
+      "it": "Albero colorato"
     },
     "caption": {
       "en": "A spiraled pale trunk stands before fiery hills and snow-capped peaks.",
       "es": "Un tronco pálido en espiral se alza ante colinas de fuego y picos nevados.",
       "it": "Un tronco pallido a spirale sorge davanti a colline di fuoco e vette."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 40
     }
   },
   {
     "id": "work-42",
-    "slug": "whirlwind-of-seasons",
+    "slug": "spring-tree",
     "image": "/artworks/work-42.jpg",
     "featured": false,
-    "priceUsd": 2200,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Whirlwind of Seasons",
-      "es": "Torbellino de Estaciones",
-      "it": "Turbine delle Stagioni"
+      "en": "Spring Tree",
+      "es": "Árbol de primavera",
+      "it": "Albero di primavera"
     },
     "caption": {
       "en": "A black tree silhouette scatters white petals across a three-panel spectrum.",
       "es": "La silueta de un árbol negro esparce pétalos blancos en un tríptico.",
       "it": "La silhouette di un albero nero sparge petali bianchi su un trittico."
+    },
+    "dimensions": {
+      "widthCm": 30,
+      "heightCm": 40,
+      "pieces": 3
     }
   },
   {
     "id": "work-43",
-    "slug": "rifugio-at-noon",
+    "slug": "three-peaks-orange-green-blue",
     "image": "/artworks/work-43.jpg",
     "featured": false,
-    "priceUsd": 2400,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Rifugio at Noon",
-      "es": "Refugio al Mediodía",
-      "it": "Rifugio a Mezzogiorno"
+      "en": "Three Peaks Orange Green Blue",
+      "es": "3 cimas naranja, verde y azul",
+      "it": "Tre cime arancio verde blu"
     },
     "caption": {
       "en": "A mountain hut and winding path lead toward three sunlit Dolomite towers.",
       "es": "Un refugio y un sendero llevan hacia tres torres dolomíticas al sol.",
       "it": "Un rifugio e un sentiero portano verso tre torri dolomitiche al sole."
+    },
+    "dimensions": {
+      "widthCm": 80,
+      "heightCm": 60
     }
   },
   {
     "id": "work-44",
-    "slug": "ash-and-ember",
+    "slug": "lion",
     "image": "/artworks/work-44.jpg",
     "featured": false,
-    "priceUsd": 2600,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Ash and Ember",
-      "es": "Ceniza y Brasa",
-      "it": "Cenere e Brace"
+      "en": "Lion",
+      "es": "León",
+      "it": "Leone"
     },
     "caption": {
       "en": "A grayscale lion rests in calm dignity against a field of savanna fire.",
       "es": "Un león en escala de grises reposa digno ante un campo de fuego sabana.",
       "it": "Un leone in scala di grigi riposa dignitoso su un campo di fuoco savana."
+    },
+    "dimensions": {
+      "widthCm": 50,
+      "heightCm": 40
     }
   },
   {
     "id": "work-45",
-    "slug": "aquatic-sonata",
+    "slug": "violin",
     "image": "/artworks/work-45.jpg",
     "featured": false,
-    "priceUsd": 2800,
+    "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Aquatic Sonata",
-      "es": "Sonata Acuática",
-      "it": "Sonata Acquatica"
+      "en": "Violin",
+      "es": "Violín",
+      "it": "Violino"
     },
     "caption": {
       "en": "A cello drifts among roses and ripples, bow laid quiet across the strings.",
       "es": "Un cello flota entre rosas y ondas, el arco quieto sobre las cuerdas.",
       "it": "Un violoncello fluttua tra rose e onde, l'arco quieto sulle corde."
+    },
+    "dimensions": {
+      "widthCm": 40,
+      "heightCm": 60
     }
   }
 ]

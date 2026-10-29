@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import {
+  formatArtworkDimensions,
   getArtworkCaption,
   getArtworkTitle,
   type Artwork,
@@ -14,6 +15,9 @@ export function ArtworkCard({ artwork }: { artwork: Artwork }) {
   const { locale, t } = useLocale();
   const title = getArtworkTitle(artwork, locale);
   const caption = getArtworkCaption(artwork, locale);
+  const dims = formatArtworkDimensions(artwork);
+  const showPrice =
+    typeof artwork.priceUsd === "number" && Number.isFinite(artwork.priceUsd);
 
   return (
     <article className="group">
@@ -31,10 +35,22 @@ export function ArtworkCard({ artwork }: { artwork: Artwork }) {
           <h3 className="font-[family-name:var(--font-display)] text-xl text-[var(--ink)]">
             {title}
           </h3>
-          <p className="shrink-0 text-sm font-medium text-[var(--accent-deep)]">
-            {formatPriceUsd(artwork.priceUsd, localeMeta[locale].numberLocale)}
-          </p>
+          {showPrice ? (
+            <p className="shrink-0 text-sm font-medium text-[var(--accent-deep)]">
+              {formatPriceUsd(
+                artwork.priceUsd as number,
+                localeMeta[locale].numberLocale,
+              )}
+            </p>
+          ) : null}
         </div>
+        {dims ? (
+          <p className="text-sm text-[var(--ink)]/80">
+            <span className="text-[var(--muted)]">{t("dimensionsLabel")}: </span>
+            {dims.size}
+            {dims.pieces ? ` (${dims.pieces} ${t("piecesLabel")})` : null}
+          </p>
+        ) : null}
         <p className="text-sm leading-relaxed text-[var(--muted)]">{caption}</p>
         <p className="text-xs uppercase tracking-[0.18em] text-[var(--muted)]">
           {artwork.available ? t("available") : t("sold")}
