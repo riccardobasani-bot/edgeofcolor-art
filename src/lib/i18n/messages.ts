@@ -13,7 +13,7 @@ export const localeMeta: Record<
 
 export const messages = {
   en: {
-    brand: "MarcyArt",
+    brand: "EdgeOfColor Art",
     artist: "Marcello Basani",
     series: "EdgeOfColor",
     navHome: "Home",
@@ -46,7 +46,7 @@ export const messages = {
     language: "Language",
   },
   es: {
-    brand: "MarcyArt",
+    brand: "EdgeOfColor Art",
     artist: "Marcello Basani",
     series: "EdgeOfColor",
     navHome: "Inicio",
@@ -79,7 +79,7 @@ export const messages = {
     language: "Idioma",
   },
   it: {
-    brand: "MarcyArt",
+    brand: "EdgeOfColor Art",
     artist: "Marcello Basani",
     series: "EdgeOfColor",
     navHome: "Home",
