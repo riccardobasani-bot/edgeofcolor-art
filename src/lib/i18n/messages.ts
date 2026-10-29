@@ -16,7 +16,7 @@ export const messages = {
     brand: "EdgeOfColor Art",
     brandSubtitle: "Fragments of Experience Shaped into Form",
     tagline: "Every Canvas tells a Story",
-    artist: "Marcello Basani",
+    artist: "EdgeOfColor Art",
     series: "EdgeOfColor",
     navHome: "Home",
     navCatalog: "Catalog",
@@ -35,13 +35,13 @@ export const messages = {
     piecesLabel: "pieces",
     shippingTitle: "Ships internationally",
     shippingBody:
-      "Marcello ships worldwide. Ask about framing, lead times, and delivery to your country.",
+      "EdgeOfColor Art ships worldwide. Ask about framing, lead times, and delivery to your country.",
     commissionTitle: "Commissions",
     commissionBody:
-      "Marcello also paints on commission. Share a size, subject, or mood, and he will work with you from the first sketch to the finished canvas.",
-    aboutTitle: "Who is Marcello Basani?",
+      "EdgeOfColor Art also paints on commission. Share a size, subject, or mood, and he will work with you from the first sketch to the finished canvas.",
+    aboutTitle: "Behind EdgeOfColor Art",
     aboutBody:
-      "Once a youth national 100-meter runner and a pianist who moves from classical scales to paint on canvas, Marcello gathered degrees, passport stamps, and perspectives across Italy, Denmark, England, and the United States until academic borders felt too narrow. Living and working through Italy, Denmark, the UK, the USA, Mexico, Nepal, Ecuador, Guyana, and Uruguay became its own kind of education, each place leaving a mark. His family braids Italy with India and America, and keeps Nordic roads in its orbit; the breakfast table stays an idea lab. His art is schema-free, irreverent, and oneiric: athletic urgency, musical structure, and nomadic mysticism.",
+      "EdgeOfColor Art is an independent painting practice driven by experimentation rather than a fixed artistic language. The work moves freely between abstraction and suggestion, combining color, texture, gesture and layered surfaces to create images that are intuitive, atmospheric and sometimes oneiric. The process is deliberately exploratory. Acrylics, pigments and mixed techniques are built up, altered, covered and rediscovered, allowing each painting to develop through an interplay of intention and chance. Rather than illustrating a predetermined idea, the work emerges through the act of painting itself. EdgeOfColor Art is less interested in defining the artist than in letting the paintings establish their own identity. ",
     quote:
       "They say that to find yourself you must stay in the same place. I did the opposite: I traveled the world, and when I got tired of running, I started painting.",
     priceLabel: "Price",
