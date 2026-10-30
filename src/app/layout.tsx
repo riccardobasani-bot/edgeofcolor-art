@@ -18,9 +18,9 @@ const body = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "MarcyArt — Marcello Basani | EdgeOfColor",
+  title: "Kromo Atlas — EdgeOfColor",
   description:
-    "Promotional site for Marcello Basani (MarcyArt / EdgeOfColor). Schema-free, irreverent, oneiric paintings. Ships internationally.",
+    "Promotional site for Marcello Basani (Kromo Atlas / EdgeOfColor). Schema-free, irreverent, oneiric paintings. Ships internationally.",
 };
 
 export default function RootLayout({
