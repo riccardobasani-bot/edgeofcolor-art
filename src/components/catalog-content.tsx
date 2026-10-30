@@ -9,14 +9,14 @@ import { ARTWORK_CATEGORIES } from "@/lib/artworks";
 import { useLocale } from "@/lib/i18n/locale-context";
 
 const CATEGORY_LABELS: Record<ArtworkCategory, string> = {
-  "mountain-landscapes": "Mountain Landscapes",
-  portraits: "Portraits",
-  "music-inspired-pieces": "Music-Inspired Pieces",
-  "surreal-figurative-works": "Surreal / Figurative Works",
+  "mountain-landscapes": "Alpine Horizons",
+  portraits: "Portraiture",
+  "music-inspired-pieces": "Sound & Rhythm",
+  "surreal-figurative-works": "Dreamscapes & Figuration",
 };
 
 const FILTERS = [
-  { id: "all", label: "All works" },
+  { id: "all", label: "All Works" },
   ...ARTWORK_CATEGORIES.map((category) => ({
     id: category,
     label: CATEGORY_LABELS[category],
