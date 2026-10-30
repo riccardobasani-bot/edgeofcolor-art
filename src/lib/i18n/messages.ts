@@ -13,7 +13,7 @@ export const localeMeta: Record<
 
 export const messages = {
   en: {
-    brand: "EdgeOfColor Art - Mar Cielo",
+    brand: "Kromo Atlas - EdgeOfColor Art",
     brandSubtitle: "Fragments of Experience Shaped into Form",
     tagline: "Every Canvas tells a Story",
     artist: "EdgeOfColor Art",
@@ -39,7 +39,7 @@ export const messages = {
     commissionTitle: "Commissions",
     commissionBody:
       "EdgeOfColor Art also paints on commission. Share a size, subject, or mood, and he will work with you from the first sketch to the finished canvas.",
-    aboutTitle: "Behind EdgeOfColor Art",
+    aboutTitle: "Behind Kromo Atlas / EdgeOfColor Art",
     aboutBody:
       "EdgeOfColor Art is an independent painting practice driven by experimentation rather than a fixed artistic language. The work moves freely between abstraction and suggestion, combining color, texture, gesture and layered surfaces to create images that are intuitive, atmospheric and sometimes oneiric. The process is deliberately exploratory. Acrylics, pigments and mixed techniques are built up, altered, covered and rediscovered, allowing each painting to develop through an interplay of intention and chance. Rather than illustrating a predetermined idea, the work emerges through the act of painting itself. EdgeOfColor Art is less interested in defining the artist than in letting the paintings establish their own identity. ",
     quote:
@@ -48,15 +48,15 @@ export const messages = {
     available: "Available",
     sold: "Sold",
     backHome: "Back to home",
-    contactEmail: "studio@marcyart.example",
-    footerNote: "© EdgeOfColor / MarcyArt",
+    contactEmail: "marcybasa@gmail.com",
+    footerNote: "© Kromo Atlas / EdgeOfColor",
     language: "Language",
   },
   es: {
     brand: "EdgeOfColor Art",
     brandSubtitle: "Fragmentos de experiencia que toman forma",
     tagline: "Cada lienzo cuenta una historia",
-    artist: "EdgeOfColor Art",
+    artist: "Kromo Atlas / EdgeOfColor Art",
     series: "EdgeOfColor",
     navHome: "Inicio",
     navCatalog: "Catálogo",
@@ -79,7 +79,7 @@ export const messages = {
     commissionTitle: "Encargos",
     commissionBody:
       "EdgeOfColor Art también pinta por encargo. Comparte un tamaño, un tema o un ambiente, y trabajará contigo desde el primer boceto hasta el lienzo terminado.",
-    aboutTitle: "Detrás de EdgeOfColor Art",
+    aboutTitle: "Detrás de Kromo Atlas / EdgeOfColor Art",
     aboutBody:
       "EdgeOfColor Art es una práctica pictórica independiente, impulsada por la experimentación más que por un lenguaje artístico definido. La obra se mueve libremente entre la abstracción y la sugerencia, combinando color, textura, gesto y superficies superpuestas para crear imágenes intuitivas, atmosféricas y, en ocasiones, oníricas. El proceso es deliberadamente exploratorio. Acrílicos, pigmentos y técnicas mixtas se superponen, transforman, cubren y redescubren, permitiendo que cada pintura evolucione a través de la interacción entre intención y azar. En lugar de ilustrar una idea predeterminada, la obra surge durante el propio acto de pintar. EdgeOfColor Art busca menos definir al artista que dejar que las pinturas construyan su propia identidad.",
     quote:
@@ -88,15 +88,15 @@ export const messages = {
     available: "Disponible",
     sold: "Vendido",
     backHome: "Volver al inicio",
-    contactEmail: "studio@marcyart.example",
-    footerNote: "© EdgeOfColor / MarcyArt",
+    contactEmail: "marcybasa@gmail.com",
+    footerNote: "© Kromo Atlas / EdgeOfColor",
     language: "Idioma",
   },
   it: {
     brand: "EdgeOfColor Art",
     brandSubtitle: "Frammenti di esperienza che prendono forma",
     tagline: "Ogni tela racconta una storia",
-    artist: "EdgeOfColor Art",
+    artist: "Kromo Atlas / EdgeOfColor Art",
     series: "EdgeOfColor",
     navHome: "Home",
     navCatalog: "Catalogo",
@@ -119,7 +119,7 @@ export const messages = {
     commissionTitle: "Commissioni",
     commissionBody:
       "EdgeOfColor Art dipinge anche su commissione. Condividi una misura, un soggetto o un'atmosfera, e lavorerà con te dal primo schizzo alla tela finita.",
-    aboutTitle: "Dietro EdgeOfColor Art",
+    aboutTitle: "Dietro Kromo Atlas / EdgeOfColor Art",
     aboutBody:
       "EdgeOfColor Art è una pratica pittorica indipendente, guidata dalla sperimentazione piuttosto che da un linguaggio artistico definito. Il lavoro si muove liberamente tra astrazione e suggestione, combinando colore, materia, gesto e superfici stratificate per creare immagini intuitive, atmosferiche e talvolta oniriche. Il processo è volutamente esplorativo. Acrilici, pigmenti e tecniche miste vengono sovrapposti, modificati, coperti e riscoperti, lasciando che ogni dipinto si sviluppi attraverso il dialogo tra intenzione e caso. Piuttosto che illustrare un’idea prestabilita, l’opera emerge attraverso l’atto stesso del dipingere.EdgeOfColor Art è meno interessato a definire l’artista che a lasciare che siano i dipinti a costruire la propria identità.",
     quote:
@@ -128,8 +128,8 @@ export const messages = {
     available: "Disponibile",
     sold: "Venduto",
     backHome: "Torna alla home",
-    contactEmail: "studio@marcyart.example",
-    footerNote: "© EdgeOfColor / MarcyArt",
+    contactEmail: "marcybasa@gmail.com",
+    footerNote: "© Kromo Atlas / EdgeOfColor",
     language: "Lingua",
   },
 } as const;
