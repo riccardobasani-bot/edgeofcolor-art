@@ -75,13 +75,13 @@ export const messages = {
     piecesLabel: "piezas",
     shippingTitle: "Envíos internacionales",
     shippingBody:
-      "Marcello envía a todo el mundo. Pregunta por enmarcado, plazos y entrega a tu país.",
+      "EdgeOfColor Art envía a todo el mundo. Pregunta por enmarcado, plazos y entrega a tu país.",
     commissionTitle: "Encargos",
     commissionBody:
-      "Marcello también pinta por encargo. Comparte un tamaño, un tema o un ambiente, y trabajará contigo desde el primer boceto hasta el lienzo terminado.",
-    aboutTitle: "¿Quién es Marcello Basani?",
+      "EdgeOfColor Art también pinta por encargo. Comparte un tamaño, un tema o un ambiente, y trabajará contigo desde el primer boceto hasta el lienzo terminado.",
+    aboutTitle: "Detrás de EdgeOfColor Art",
     aboutBody:
-      "Antes corredor juvenil de 100 metros a nivel nacional y pianista que pasa de las escalas clásicas a la pintura, Marcello reunió títulos, sellos de pasaporte y perspectivas en Italia, Dinamarca, Inglaterra y Estados Unidos hasta que las fronteras académicas le resultaron demasiado estrechas. Vivir y trabajar en Italia, Dinamarca, el Reino Unido, EE. UU., México, Nepal, Ecuador, Guyana y Uruguay se convirtió en otra forma de educación, y cada lugar dejó su huella. Su familia entrelaza Italia con la India y América, y mantiene los caminos nórdicos en su órbita; la mesa del desayuno sigue siendo un laboratorio de ideas. Su arte es libre de esquemas, irreverente y onírico: urgencia atlética, estructura musical y misticismo nómada.",
+      "EdgeOfColor Art es una práctica pictórica independiente, impulsada por la experimentación más que por un lenguaje artístico definido. La obra se mueve libremente entre la abstracción y la sugerencia, combinando color, textura, gesto y superficies superpuestas para crear imágenes intuitivas, atmosféricas y, en ocasiones, oníricas. El proceso es deliberadamente exploratorio. Acrílicos, pigmentos y técnicas mixtas se superponen, transforman, cubren y redescubren, permitiendo que cada pintura evolucione a través de la interacción entre intención y azar. En lugar de ilustrar una idea predeterminada, la obra surge durante el propio acto de pintar. EdgeOfColor Art busca menos definir al artista que dejar que las pinturas construyan su propia identidad.",
     quote:
       "Dicen que para encontrarte a ti mismo debes permanecer en el mismo lugar. Yo hice lo contrario: recorrí el mundo, y cuando me cansé de correr, empecé a pintar.",
     priceLabel: "Precio",
