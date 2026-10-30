@@ -1,5 +1,4 @@
-import fs from "node:fs";
-import path from "node:path";
+import artworksData from "../../data/artworks.json";
 
 export const ARTWORK_CATEGORIES = [
   "mountain-landscapes",
@@ -9,9 +8,10 @@ export const ARTWORK_CATEGORIES = [
 ] as const;
 
 export type ArtworkCategory = (typeof ARTWORK_CATEGORIES)[number];
-export type LocaleKey = "en" | "es" | "it";
+export type Locale = "en" | "es" | "it";
+export type LocaleKey = Locale;
 
-type LocalizedText = Record<LocaleKey, string>;
+type LocalizedText = Record<Locale, string>;
 
 type ArtworkDimensions = {
   widthCm?: number;
@@ -80,21 +80,21 @@ const categoryMap: Record<string, ArtworkCategory> = {
   "work-45": "music-inspired-pieces",
 };
 
-const dataFilePath = path.join(process.cwd(), "data", "artworks.json");
-const resolvedArtworks = JSON.parse(
-  fs.readFileSync(dataFilePath, "utf8"),
-) as Artwork[];
-
-export const artworks: Artwork[] = resolvedArtworks.map((artwork) => ({
+export const artworks: Artwork[] = (artworksData as Artwork[]).map((artwork) => ({
   ...artwork,
-  category: artwork.category ?? categoryMap[artwork.id] ?? "surreal-figurative-works",
+  category:
+    artwork.category ?? categoryMap[artwork.id] ?? "surreal-figurative-works",
 }));
 
-export function getArtworkTitle(artwork: Artwork, locale: LocaleKey) {
+export function getFeaturedArtworks() {
+  return artworks.filter((artwork) => artwork.featured);
+}
+
+export function getArtworkTitle(artwork: Artwork, locale: Locale) {
   return artwork.title?.[locale] ?? artwork.title?.en ?? "Untitled";
 }
 
-export function getArtworkCaption(artwork: Artwork, locale: LocaleKey) {
+export function getArtworkCaption(artwork: Artwork, locale: Locale) {
   return artwork.caption?.[locale] ?? artwork.caption?.en ?? "";
 }
 
