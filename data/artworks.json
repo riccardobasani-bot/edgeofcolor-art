@@ -81,15 +81,15 @@
   },
   {
     "id": "work-05",
-    "slug": "hill",
+    "slug": "granite peaks",
     "image": "/artworks/work-05.jpg",
     "featured": true,
     "priceUsd": null,
     "available": true,
     "title": {
-      "en": "Hill",
-      "es": "Cerro",
-      "it": "Colle"
+      "en": "Granite peaks",
+      "es": "Picos de granito",
+      "it": "Picchi granitici"
     },
     "caption": {
       "en": "Jagged granite peaks blaze orange over a turquoise glacial lake at dusk.",
