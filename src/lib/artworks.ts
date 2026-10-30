@@ -1,8 +1,38 @@
-const fs = require("fs");
+import fs from "node:fs";
+import path from "node:path";
 
-const file = "data/artworks.json";
+export const ARTWORK_CATEGORIES = [
+  "mountain-landscapes",
+  "portraits",
+  "music-inspired-pieces",
+  "surreal-figurative-works",
+] as const;
 
-const map = {
+export type ArtworkCategory = (typeof ARTWORK_CATEGORIES)[number];
+export type LocaleKey = "en" | "es" | "it";
+
+type LocalizedText = Record<LocaleKey, string>;
+
+type ArtworkDimensions = {
+  widthCm?: number;
+  heightCm?: number;
+  pieces?: number;
+};
+
+export type Artwork = {
+  id: string;
+  slug: string;
+  image: string;
+  featured: boolean;
+  priceUsd: number | null;
+  available: boolean;
+  title: LocalizedText;
+  caption: LocalizedText;
+  dimensions?: ArtworkDimensions;
+  category?: ArtworkCategory;
+};
+
+const categoryMap: Record<string, ArtworkCategory> = {
   "work-01": "music-inspired-pieces",
   "work-02": "surreal-figurative-works",
   "work-03": "surreal-figurative-works",
@@ -50,12 +80,33 @@ const map = {
   "work-45": "music-inspired-pieces",
 };
 
-const json = JSON.parse(fs.readFileSync(file, "utf8"));
+const dataFilePath = path.join(process.cwd(), "data", "artworks.json");
+const resolvedArtworks = JSON.parse(
+  fs.readFileSync(dataFilePath, "utf8"),
+) as Artwork[];
 
-for (const item of json) {
-  if (!item.id) continue;
-  item.category = map[item.id] || "surreal-figurative-works";
+export const artworks: Artwork[] = resolvedArtworks.map((artwork) => ({
+  ...artwork,
+  category: artwork.category ?? categoryMap[artwork.id] ?? "surreal-figurative-works",
+}));
+
+export function getArtworkTitle(artwork: Artwork, locale: LocaleKey) {
+  return artwork.title?.[locale] ?? artwork.title?.en ?? "Untitled";
 }
 
-fs.writeFileSync(file, JSON.stringify(json, null, 2) + "\n");
-console.log("Categories added to data/artworks.json");
+export function getArtworkCaption(artwork: Artwork, locale: LocaleKey) {
+  return artwork.caption?.[locale] ?? artwork.caption?.en ?? "";
+}
+
+export function formatArtworkDimensions(artwork: Artwork) {
+  const { widthCm, heightCm, pieces } = artwork.dimensions ?? {};
+
+  if (!widthCm || !heightCm) {
+    return null;
+  }
+
+  return {
+    size: `${widthCm} × ${heightCm} cm`,
+    pieces,
+  };
+}
