@@ -51,7 +51,7 @@ export function HomeContent({ featured, heroArtwork }: HomeContentProps) {
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-16 md:grid-cols-[minmax(11rem,15rem)_1fr] md:items-start md:gap-12 md:px-8 md:py-20">
           <div className="relative mx-auto aspect-square w-44 overflow-hidden sm:w-52 md:mx-0 md:w-full">
             <Image
-              src="/images/marcello-portrait.png"
+              src="/images/new logo.png"
               alt="Marcello Basani"
               fill
               sizes="(max-width: 768px) 208px, 240px"
