@@ -115,13 +115,13 @@ export const messages = {
     piecesLabel: "pezzi",
     shippingTitle: "Spedizioni internazionali",
     shippingBody:
-      "Marcello spedisce in tutto il mondo. Chiedi di cornici, tempi e consegna nel tuo paese.",
+      "EdgeOfColor Art spedisce in tutto il mondo. Chiedi di cornici, tempi e consegna nel tuo paese.",
     commissionTitle: "Commissioni",
     commissionBody:
-      "Marcello dipinge anche su commissione. Condividi una misura, un soggetto o un'atmosfera, e lavorerà con te dal primo schizzo alla tela finita.",
-    aboutTitle: "Chi è Marcello Basani?",
+      "EdgeOfColor Art dipinge anche su commissione. Condividi una misura, un soggetto o un'atmosfera, e lavorerà con te dal primo schizzo alla tela finita.",
+    aboutTitle: "Dietro EdgeOfColor Art",
     aboutBody:
-      "Prima corridore giovanile dei 100 metri per la Nazionale e pianista che passa dalle scale classiche alla tela, Marcello ha raccolto lauree, timbri sul passaporto e prospettive in Italia, Danimarca, Inghilterra e Stati Uniti finché i confini accademici gli sono sembrati troppo stretti. Vivere e lavorare in Italia, Danimarca, UK, USA, Messico, Nepal, Ecuador, Guyana e Uruguay è diventata un'altra forma di educazione, e ogni luogo ha lasciato un segno. La sua famiglia intreccia l'Italia con l'India e l'America, e tiene le strade nordiche nella propria orbita; la colazione resta un laboratorio di idee. La sua arte è senza schemi, irriverente e onirica: urgenza atletica, struttura musicale e misticismo nomade.",
+      "EdgeOfColor Art è una pratica pittorica indipendente, guidata dalla sperimentazione piuttosto che da un linguaggio artistico definito. Il lavoro si muove liberamente tra astrazione e suggestione, combinando colore, materia, gesto e superfici stratificate per creare immagini intuitive, atmosferiche e talvolta oniriche. Il processo è volutamente esplorativo. Acrilici, pigmenti e tecniche miste vengono sovrapposti, modificati, coperti e riscoperti, lasciando che ogni dipinto si sviluppi attraverso il dialogo tra intenzione e caso. Piuttosto che illustrare un’idea prestabilita, l’opera emerge attraverso l’atto stesso del dipingere.EdgeOfColor Art è meno interessato a definire l’artista che a lasciare che siano i dipinti a costruire la propria identità.",
     quote:
       "Dicono che per trovare te stesso tu debba rimanere nello stesso posto. Io ho fatto il contrario: ho girato il mondo, e quando mi sono stancato di correre, ho iniziato a dipingere.",
     priceLabel: "Prezzo",
